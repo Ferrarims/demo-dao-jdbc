@@ -67,11 +67,11 @@ public class Seller implements Serializable{
 		this.baseSalary = baseSalary;
 	}
 
-	public Department getDepartament() {
+	public Department getDepartment() {
 		return department;
 	}
 
-	public void setDepartament(Department department) {
+	public void setDepartment(Department department) {
 		this.department = department;
 	}
 
@@ -103,6 +103,6 @@ public class Seller implements Serializable{
 	@Override
 	public String toString() {
 		return "Seller [id=" + id + ", name=" + name + ", email=" + email + ", birthDate=" + birthDate + ", baseSalary="
-				+ baseSalary + ", departament=" + department + "]";
+				+ baseSalary + ", department=" + department + "]";
 	}
 }
